@@ -5,14 +5,12 @@ import java.util.Scanner;
 import java.io.PrintWriter;
 
 /**
- * EN.500.112, Fall 2026, Project 3: Vehicle Data Analysis 
- * Gateway Computing: Java, Johns Hopkins University
  * Purpose: read data file about vehicles for sale and
  * perform some specific analysis on the data.
  * 
- * [Tiffany Lolley, tlolley1, 10/14/26]
+ * [Tiffany Lolley, 10/14/26]
  */
-public class Project3 {
+public class VehicleAnalysis {
 
    // column index constants for vehicle data file
    static final int ENTRY_INDEX = 0;
@@ -398,8 +396,6 @@ public class Project3 {
     * Output data about one vehicle to the console, using
     * given formatting string. 
     *
-    * ---DO NOT MODIFY THIS METHOD---
-    *
     * @param entry the entry number to output
     * @param brand the brand name to output
     * @param year the model year to output
@@ -415,13 +411,8 @@ public class Project3 {
                 entry, brand, year, mileage, price, region);
    }
    
-   
-   
-   
    /**
     * Print the program menu to the console.
-    *
-    * ---DO NOT MODIFY THIS METHOD---
     *
     */
    public static void printMenu() {
